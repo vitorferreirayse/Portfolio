@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+p {
+    color: aliceblue;
+    font-size: large;
+    text-align: center;
+    font-style: url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+}
+
+#homeimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    color: aliceblue;
+}
+
+li {
+    display: inline;
+    float: right;
+    font-size: x-large;
+    margin: 10px;
+}
+
+li a:hover{
+    background-color: aliceblue;
+}
+
+
+
