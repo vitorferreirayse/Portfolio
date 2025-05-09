@@ -6,13 +6,13 @@ body {
 }
 
 h1 {
-    color: aliceblue;
+    color: rgb(173, 165, 165);
     text-align: center;
 }
 
 p {
-    color: aliceblue;
-    font-size: large;
+    color: rgb(173, 165, 165);
+    font-size: x-large;
     text-align: center;
     font-style: url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 }    
@@ -25,11 +25,12 @@ p {
 
 ul {
     color: aliceblue;
+    background-color: darkgray;
 }
 
 li {
+    justify-content: center;
     display: inline;
-    float: left;
     font-size: x-large;
     margin: 10px;
 }
@@ -37,3 +38,11 @@ li {
 li a:hover{
     background-color: aliceblue;
 }
+
+.topnav a {
+    float: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
